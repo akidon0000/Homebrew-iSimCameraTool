@@ -6,7 +6,8 @@ class Isimcameratool < Formula
   license "MIT"
 
   def install
-    system "./configure", "--disable-silent-rules", *std_configure_args
+    system "swift", "build", "-c", "release"
+    bin.install ".build/release/isim"
   end
 
   test do
