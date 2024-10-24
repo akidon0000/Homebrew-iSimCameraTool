@@ -6,7 +6,6 @@ class Isimcameratool < Formula
   license "MIT"
 
   def install
-    system "./configure", "--disable-silent-rules", *std_configure_args
   end
 
   test do
