@@ -6,6 +6,8 @@ class Isimcameratool < Formula
   license "MIT"
 
   def install
+      system "swift", "build", "-c", "release", "--disable-sandbox"
+      bin.install ".build/release/isim"
   end
 
   test do
