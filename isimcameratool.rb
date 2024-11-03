@@ -1,8 +1,8 @@
 class Isimcameratool < Formula
   desc "IPhoneシミュレーターにMacのカメラを表示させるためのMacアプリです"
   homepage "https://github.com/akidon0000/isimcameratool"
-  url "https://github.com/akidon0000/iSimCameraTool/archive/refs/tags/0.0.1.tar.gz"
-  sha256 "565483b1e1c26c36c4f74595ba3766b58769f1a71682b5ecd5c508768fae556f"
+  url "https://github.com/akidon0000/iSimCameraTool/archive/refs/tags/0.0.2.tar.gz"
+  sha256 "74074b519e8c2de24c55a4a6e8ab494de0ee1146bfa5a78e5f28398b030ef9aa"
   license "MIT"
 
   def install
